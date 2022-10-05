@@ -5,7 +5,7 @@ import {
   APIGatewayProxyResult,
   APIGatewayProxyHandler,
 } from "aws-lambda";
-import { deleteToDo } from "../../helpers/ToDo";
+import { deleteToDo } from "../../businessLogic/ToDo";
 
 export const handler: APIGatewayProxyHandler = async (
   event: APIGatewayProxyEvent

@@ -6,7 +6,7 @@ import {
   APIGatewayProxyResult,
 } from "aws-lambda";
 import { CreateTodoRequest } from "../../requests/CreateTodoRequest";
-import { createToDo } from "../../helpers/ToDo";
+import { createToDo } from "../../businessLogic/ToDo";
 
 export const handler: APIGatewayProxyHandler = async (
   event: APIGatewayProxyEvent

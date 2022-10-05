@@ -5,7 +5,7 @@ import {
   APIGatewayProxyResult,
   APIGatewayProxyHandler,
 } from "aws-lambda";
-import { generateUploadUrl } from "../../helpers/ToDo";
+import { generateUploadUrl } from "../../businessLogic/ToDo";
 
 export const handler: APIGatewayProxyHandler = async (
   event: APIGatewayProxyEvent
